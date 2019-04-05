@@ -1,0 +1,81 @@
+Linked
+======
+
+10
+ linkedmap over 10 iterations.
+[1554010346840 linked] put loop count: 45
+[1554010346840 linked] get loop count: 100
+
+100
+linkedmap over 100 iterations.
+[1554010429877 linked] put loop count: 4950
+[1554010429877 linked] get loop count: 10000
+
+1,000
+linkedmap over 1000 iterations.
+[1554010475218 linked] put loop count: 499500
+[1554010475218 linked] get loop count: 1000000
+
+10,000
+linkedmap over 10000 iterations.
+[1554010504907 linked] put loop count: 49995000
+[1554010504907 linked] get loop count: 100000000
+
+100,000
+linkedmap over 100000 iterations.
+[1554010531730 linked] put loop count: 704982704
+[1554010531730 linked] get loop count: 1409814608
+
+300,000
+linkedmap over 300000 iterations.
+[1554010650846 linked] put loop count: 2047518786
+[1554010650846 linked] get loop count: -201748909
+
+Binary Search Tree
+==================
+
+10
+bst   map over 10 iterations.
+[1554011576539 bst   ] put loop count: 23
+[1554011576539 bst   ] get loop count: 45
+
+100
+bst   map over 100 iterations.
+[1554011597519 bst   ] put loop count: 620
+[1554011597519 bst   ] get loop count: 966
+
+1,000
+ bst   map over 1000 iterations.
+[1554011622165 bst   ] put loop count: 10194
+[1554011622165 bst   ] get loop count: 13210
+
+10,000
+ bst   map over 10000 iterations.
+[1554011641607 bst   ] put loop count: 154278
+[1554011641607 bst   ] get loop count: 183265
+
+100,000
+bst   map over 100000 iterations.
+[1554011662597 bst   ] put loop count: 1967974
+[1554011662597 bst   ] get loop count: 2267208
+
+300,000
+bst   map over 300000 iterations.
+[1554011691294 bst   ] put loop count: 6874585
+[1554011691294 bst   ] get loop count: 7770619
+
+1,000,0000
+ bst   map over 1000000 iterations.
+[1554011715616 bst   ] put loop count: 24251760
+[1554011715616 bst   ] get loop count: 27245201
+
+Questions
+=========
+
+1) Approximately how long did it take your computer to run the test for 300,000 iterations on the linked implementation?
+It took 709534 milliseconds
+
+2) What is the maximum value you can run the binary search tree implementation for and have it finish in less than a few seconds?
+Around 400,000 iterations it takes 3043 milliseconds
+ 
+ 
